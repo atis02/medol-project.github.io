@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.service {
+  background-image: url('/images/abstract-blur-hospital-clinic-interior 1.png');
+  background-size: cover;
+  padding: 50px 0 50px 0;
+  padding-bottom: 30px;
+  height: 100%;
+}
+
+.history-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.Contactinput {
+  border-radius: 35px;
+}
+
+.tabpanel {
+  color: #5A5A5A;
+  width: 90%;
+}
+
+.history-link:hover {
+  color: #00C9C9;
+}
+
+.history-link:focus {
+  text-decoration: underline;
+  color: #00C9C9;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #595959;
+  font-size: 14px;
+}
+
+.footer-link:focus {
+  text-decoration: underline;
+  color: #00C9C9;
+}
+
+.navbar {
+  background-image: url('/images/blur-hospital 1.png');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  /* width: 100vw; */
+  /* position: absolute; */
+}
+
+.link {
+  text-decoration: none;
+  color: #0D4C93;
+  font-size: 16px;
+  font-weight: 600;
+  width: 20%;
+  text-align: center;
+  /* border: 1px solid black; */
+  height: 60px;
+  display: flex;
+  height: 50px;
+}
+
+.links {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 1px solid black;
+}
+
+.link>p {
+  padding-top: 15px;
+}
+
+.link>span {
+  margin-top: 10px;
+}
+
+.link {
+
+  border-right: 2px solid #F2F2F2;
+}
+
+.link:last-child {
+  border-right: none;
+}
+
+.link:focus {
+
+  color: #00C9C9;
+}
+
+.link:focus>span {
+  display: flex;
+  align-items: start;
+  background-color: #00C9C9;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.imgService {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.imgService2 {
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-radius: 50px;
+}
+
+.link:focus::after>span {
+  display: flex;
+  align-items: start;
+}
+
+.ellipse {
+  position: absolute;
+  z-index: -1;
+  width: 400px;
+  height: 400px;
+}
+
+.circle4 {
+  z-index: -4;
+  position: relative;
+}
+
+.circle3 {
+  margin: 72px 0 0 72px;
+  position: absolute;
+}
+
+.circle2 {
+  margin: 110px 0 0 110px;
+  position: absolute;
+}
+
+.circle1 {
+  position: absolute;
+  margin: 210px 0 0 160px;
+}
+
+.about {
+  border-radius: 0px 50px 50px 0px;
+  background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0.00) 100%);
+}

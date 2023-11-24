@@ -1,0 +1,66 @@
+const ProductItems = [
+    {
+        id: 1,
+        name: 'Эндоваскулярная хирургия',
+        image: '/images/endeavor-large 1.png',
+        width: '220px',
+        height: '220px',
+    },
+    {
+        id: 2,
+        name: 'Лабораторная диагностика',
+        image: '/images/img6 1.png',
+        width: '200px',
+        height: '157px',
+    },
+    {
+        id: 3,
+        name: 'Кардиохирургия',
+        image: '/images/gallery_cs300_1 1.png',
+        width: '235px',
+        height: '235px',
+    },
+    {
+        id: 4,
+        name: 'ДИАБЕТ',
+        image: '/images/754-1 1.png',
+        width: '100%',
+        height: '192px',
+    },
+    {
+        id: 5,
+        name: 'ЭНДОУРОЛОГИЯ',
+        image: '/images/img5 1.png',
+        width: '154px',
+        height: '105px',
+    },
+    {
+        id: 6,
+        name: 'АРИТМОЛОГИЯ',
+        image: '/images/pacemaker-advisa-mrishtsh222 1.png',
+        width: '154px',
+        height: '154px',
+    },
+    {
+        id: 7,
+        name: 'Лабораторная диагностика',
+        image: '/images/img6 1.png',
+        width: '200px',
+        height: '157px',
+    },
+    {
+        id: 8,
+        name: 'ДИАБЕТ',
+        image: '/images/754-1 1.png',
+        width: '100%',
+        height: '192px',
+    },
+    {
+        id: 9,
+        name: 'АРИТМОЛОГИЯ',
+        image: '/images/pacemaker-advisa-mrishtsh222 1.png',
+        width: '154px',
+        height: '154px',
+    },
+]
+export default ProductItems;
