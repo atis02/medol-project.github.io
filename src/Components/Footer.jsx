@@ -28,7 +28,7 @@ export default function Footer() {
     return (
         <Box className='service' height='100%' mt='100px'>
             <Container sx={{ display: 'flex', alignItems: 'start', justifyContent: 'space-between' }}>
-                <Stack sx={{ width: { lg: '60%', sm: '60%', xs: '100%' } }} direction='column' spacing={{ lg: 6, xs: 0 }}>
+                <Stack sx={{ width: '60%' }} direction='column' spacing={6}>
                     <Stack direction='row' spacing={{ lg: 7, xs: 0 }} sx={{ display: { lg: 'flex', xs: 'column' } }}>
                         <Stack sx={{ display: { lg: 'none' }, alignItems: 'center' }} >
                             <Image alt='' width='210px' height='60px' src='/images/logo 1.png' />
@@ -66,7 +66,7 @@ export default function Footer() {
                                     </Stack>
                                 </Stack>
                             </Stack>
-                            <Stack direction='row' alignItems='center' spacing={{ lg: 7, xs: 0 }} sx={{ flexDirection: { xs: 'column' } }}>
+                            <Stack direction='row' alignItems='center' spacing={{ lg: 7, xs: 0 }} sx={{ display: { lg: 'flex', xs: 'block' } }}>
 
                                 <Stack direction='row' alignItems='center' spacing={{ lg: 1, xs: 0 }}>
                                     <Stack width='40px' height='40px' direction='row' justifyContent='center' alignItems='center' backgroundColor='#fff' borderRadius='100px'>

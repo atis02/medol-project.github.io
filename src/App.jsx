@@ -33,8 +33,8 @@ function App() {
           <Route path='/news/:id' element={<NewsItem />} />
           <Route path='/feedback' element={<Feedback />} />
         </Routes>
-        {/* <Footer /> */}
-        <Footer2 />
+        <Footer />
+        {/* <Footer2 /> */}
       </Router>
     </>
   )
