@@ -1,34 +1,34 @@
 export const Navlinsk = [
     {
         id: 1,
-        title: 'МАГАЗИН',
+        title: 'market',
         link: '/',
     },
     {
         id: 2,
-        title: 'О КОМПАНИИ ',
+        title: 'about',
         link: 'about',
 
     },
     {
         id: 3,
-        title: 'ПРОДУКЦИЯ',
+        title: 'products',
         link: 'products',
     },
     {
         id: 4,
-        title: 'УСЛУГИ',
+        title: 'services',
         link: 'services',
     },
     {
         id: 5,
-        title: 'АКЦИИ И НОВОСТИ',
+        title: 'news',
         link: 'news',
 
     },
     {
         id: 6,
-        title: 'ОБРАТНАЯ СВЯЗЬ',
+        title: 'feedback',
         link: 'feedback',
 
     },

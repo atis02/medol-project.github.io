@@ -7,6 +7,7 @@ import NewsData from './NewsData.mjs'
 import Image from 'mui-image'
 import Partners from '../Partners/Partners';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 
 
@@ -33,7 +34,7 @@ export default function News() {
             items: 1
         }
     };
-
+    const { t } = useTranslation();
     return (
         <Box>
             <Container>
@@ -46,7 +47,7 @@ export default function News() {
                                 <Image alt='' sx={{ borderRadius: '35px' }} width='235px' height='200px' src={news.image} />
                                 <Typography color='#0D4C93' textAlign='center' fontSize='18px' m='22px 0 14px 0' fontWeight='600'>{news.title}</Typography>
                                 <Typography>{news.date}</Typography>
-                                <Typography textAlign='center' fontSize='15px'>{news.description}</Typography>
+                                <Typography textAlign='center' fontSize='15px'>{t(news.description)}</Typography>
                                 <NavLink className='history-link' to='/news'>
 
                                     <Button sx={{ p: '14px 39px 14px 39px', m: '15px 0 20px 0', background: 'linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%)', borderRadius: '100px', fontSize: '16px', color: '#fff', width: '270px', height: '50px' }}>Подробнее</Button>

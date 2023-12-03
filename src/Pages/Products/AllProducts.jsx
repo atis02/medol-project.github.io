@@ -1,7 +1,7 @@
-import { Box, Container, Button, InputLabel, MenuItem, Select, Stack, Typography, FormControl } from '@mui/material'
+import { Box, Grid, Container, Button, InputLabel, MenuItem, Select, Stack, Typography, FormControl, Card, CardActionArea, CardMedia } from '@mui/material'
 import React, { useState, useEffect } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
-import ProductItems from './ProductItems.mjs';
+import ProductItems from './productItems.mjs';
 import Image from 'mui-image';
 import Navbar from '../../Components/Navbar';
 
@@ -92,6 +92,26 @@ export default function AllProducts() {
                             </NavLink>
                         </Stack>
                     )}
+                    <Grid container spacing={5} mt={5}>
+                        {ProductItems.map((item, i) => (
+                            <Grid item lg={4} md={6} sm={6} xs={12} key={`productItems_key${i}`}>
+                                <Card sx={{ borderRadius: 15 }}>
+                                    <CardActionArea>
+                                        <CardMedia
+                                            component="img"
+                                            alt="green iguana"
+                                            height="200"
+                                            image={item.image}
+                                        />
+                                        <Typography mt={3} align='center'>{item.name} </Typography>
+                                        <Stack mb={3} mt={3} direction='row' justifyContent='center'>
+                                            <Button variant='contained'>More</Button>
+                                        </Stack>
+                                    </CardActionArea>
+                                </Card>
+                            </Grid>
+                        ))}
+                    </Grid>
                 </Stack>
             </Container>
         </>

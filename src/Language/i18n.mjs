@@ -11,6 +11,8 @@ const resources = {
             services: 'SERVICES',
             news: 'NEWS',
             feedback: 'FEEDBACK/',
+            test2: 'sjgsjjgsgisgiio',
+            test: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia sequi cum, porro tenetur ad vero magnam laborum, odit amet explicabo? Odio numquam tempora aut placeat itaque quae consequatur repellendus."
         },
     },
     ru: {
@@ -22,6 +24,8 @@ const resources = {
             services: 'УСЛУГИ',
             news: 'АКЦИИ И НОВОСТИ',
             feedback: 'ОБРАТНАЯ СВЯЗЬ',
+            test2: '26.07.2021 С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно - Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery(Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер- класс в исполнении...',
+            test: "Компания предоставляет сервисное обслуживание по всем предоставляемым продуктам. У наших инженеров имеется опыт и сертификаты фирм производителей......"
         },
     },
 };
