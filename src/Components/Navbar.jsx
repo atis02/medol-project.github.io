@@ -114,7 +114,7 @@ export default function Navbar() {
                         <Image width='25px' height='25px' alt='/' src='/images/maps-and-flags 1.svg' />
                         <Stack direction='column' >
                             <Typography fontSize='14px' >
-                                г.Ташкент, Чиланзар
+                                Ashgabat
                             </Typography>
                             <Typography fontSize='14px'>
                                 10 квартал, дом 3/1
